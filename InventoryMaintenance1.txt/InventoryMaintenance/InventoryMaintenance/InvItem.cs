@@ -31,7 +31,7 @@ namespace InventoryMaintenance
             }
             set
             {
-                strItemNo = "";
+                strItemNo = value;
             }
         }
 
@@ -44,7 +44,7 @@ namespace InventoryMaintenance
             }
             set
             {
-                strDescription = "";
+                strDescription = value;
             }
         }
 
@@ -57,7 +57,7 @@ namespace InventoryMaintenance
             }
             set
             {
-                decPrice = 0m;
+                decPrice = value;
             }
         }
 
